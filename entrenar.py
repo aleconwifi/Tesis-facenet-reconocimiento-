@@ -5,10 +5,10 @@ import sys
 from classifier import training
 
 datadir = './pre_img'
-modeldir = './model/20170511-185253.pb'
-classifier_filename = './class/classifier.pkl'
-print ("Training Start")
+modeldir = './modelo_transferlearning/20170511-185253.pb'
+classifier_filename = './resultados/classifier.pkl'
+print ("Entrenando")
 obj=training(datadir,modeldir,classifier_filename)
 get_file=obj.main_train()
-print('Saved classifier model to file "%s"' % get_file)
-sys.exit("All Done")
+print('Guardado en la carpeta resultados "%s"' % get_file)
+sys.exit("Termino el entrenamiento")

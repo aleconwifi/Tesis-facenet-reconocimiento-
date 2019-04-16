@@ -1,4 +1,4 @@
-""" Tensorflow implementation of the face detection / alignment algorithm found at
+""" Codigo del paper 
 https://github.com/kpzhang93/MTCNN_face_detection_alignment
 """
 # MIT License

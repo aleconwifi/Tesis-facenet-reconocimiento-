@@ -12,9 +12,9 @@ import time
 import pickle
 import sys
 
-img_path='tyrionjon.jpg'
-modeldir = './model/20170511-185253.pb'
-classifier_filename = './class/classifier.pkl'
+img_path='./prueba_img/tyrionjon.jpg'
+modeldir = './modelo_transferlearning/20170511-185253.pb'
+classifier_filename = './resultados/classifier.pkl'
 npy='./npy'
 train_img="./train_img"
 

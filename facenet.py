@@ -1,4 +1,4 @@
-"""Functions for building the face recognition network.
+"""Codigo del paper 
 """
 # MIT License
 # 
